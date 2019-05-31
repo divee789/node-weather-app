@@ -1,0 +1,31 @@
+body{
+    color:#333333;
+    font-family:arial;
+    max-width:700px;
+    margin:0 auto;
+    padding:0 16px;
+}
+
+.footer{
+    color:#888888;
+    border-top:1px solid #eeeeee;
+    margin:16px;
+    padding: 16px 0 ;
+}
+
+h1{
+    font-size:62px;
+    margin-bottom: 10px;
+}
+
+a{
+    color:#888888;
+    margin-right:16px;
+    text-decoration:none;
+}
+p{
+    margin:2rem 0;
+}
+div{
+    margin:4rem 0;
+}
