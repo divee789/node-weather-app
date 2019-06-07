@@ -16,7 +16,7 @@ request({
     } else {
         let temp = response.body.currently.temperature
         let pre = response.body.currently.precipProbability
-        callback(undefined,response.body.daily.data[0].summary + " The temperature is " + temp + " degree, There is a " + pre + "% chance of rain today.And the pressure is "+ response.body.daily.data[0].pressure)
+        callback(undefined,response.body.daily.data[0].summary + " The temperature is " + temp + " degree, There is a " + pre*100 + "% chance of rain today.And the pressure is "+ response.body.daily.data[0].pressure)
     }
 
 })

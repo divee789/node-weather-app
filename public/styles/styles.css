@@ -1,31 +1,84 @@
-body{
-    color:#333333;
-    font-family:arial;
-    max-width:700px;
-    margin:0 auto;
-    padding:0 16px;
+body {
+  color: #333333;
+  font-family: arial;
+  color: #fff;
+  font-size: 17px;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 0;
+}
+.over {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+nav {
+  position: absolute;
+  top: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.navbar-default .navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: -1px;
+  color: #cb2d3e;
+}
+ul {
+  font-family: "Open Sans", sans-serif;
+}
+.content {
+  position: relative;
+  z-index: 99999999;
+}
+.app {
+  margin: 15% auto;
+  text-align: center;
+}
+.head {
+  font-size: 5rem;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: -2px;
+  font-weight: bold;
+}
+#sera {
+  padding: 0.8rem 2rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #237649;
+}
+#sub {
+  margin-left: 1rem;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background: #cb2d3e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ef473a,
+    #cb2d3e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.info{
+    margin-top: 5rem;
+    font-family: "Open Sans",sans-serif;
 }
 
-.footer{
-    color:#888888;
-    border-top:1px solid #eeeeee;
-    margin:16px;
-    padding: 16px 0 ;
-}
-
-h1{
-    font-size:62px;
-    margin-bottom: 10px;
-}
-
-a{
-    color:#888888;
-    margin-right:16px;
-    text-decoration:none;
-}
-p{
-    margin:2rem 0;
-}
-div{
-    margin:4rem 0;
+.mes{
+    font-size: 2rem;
 }

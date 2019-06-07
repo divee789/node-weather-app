@@ -42,7 +42,7 @@ app.get("/weather",(req,res)=>{
              return console.log(err)
             }
             res.send({
-                title:"weather App",
+                title:"AlphaWeb",
                 location:location,
                 forecast:foreCastdata,
                 name:"Divine Olokor"

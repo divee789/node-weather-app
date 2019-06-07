@@ -2,17 +2,21 @@
     {{>header}}
 
 
-    <div>
+    <div class="app">
+        <div class="content head">
         Get your Weather information here
     </div>
-   <div>
-        <form action="">
-        <input type="search" name="search" placeholder="location">
-        <input type="submit" value="Search">
+   <div class="content">
+        <form class="content" action="">
+        <input class="content" type="search" id="sera" name="search" placeholder="location">
+        <input class="content" type="submit" id="sub" value="Search">
     </form>
    </div>
-    <p id="message1"></p>
-    <p id="message2"></p>
+   <div class="info">
+        <p class="content" >Location: <span id="message1" class="mes">Please Input a Location</span></p>
+    <p class="content">Verdict: <span id="message2" class="mes"></span></p>
+   </div>
+    </div>
 <footer>
         {{>footer}}
 </footer>
